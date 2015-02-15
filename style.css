@@ -1,3 +1,50 @@
 html { 
 font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
 }
+ul#nav {
+    list-style-type: none;
+	width: 700px;
+    margin: 0 auto;
+    padding: 0;
+	overflow: hidden;
+}
+#nav li {
+    display: inline-block;
+}
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    width: 175px;
+	height: 35px;
+	text-align: center;
+	background-color: #E6E6E6;
+	transition: background-color 0.5s ease;
+	text-decoration: none;
+}
+
+#nav a:hover {
+    color: #F90;
+    background-color: white;
+}
+
+#nav ul {
+position: absolute;
+width: 120px;
+left: -1000px;
+right: 950px;
+}
+
+
+
+#nav li:hover ul {
+left: auto;
+}
+
+}
+#nav div:hover {
+  background-color: green;
+}
+
